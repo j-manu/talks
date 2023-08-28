@@ -1,0 +1,9 @@
+<%= turbo_frame_tag "users", src: external_users_path	do %>
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-[20px] md:gap-[50px]">
+    <% 6.times do %>
+      <%= render "skelton" %>
+    <% end %>
+  </div>
+<% end %>
+
+

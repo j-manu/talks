@@ -1,0 +1,2 @@
+module External::UsersHelper
+end
